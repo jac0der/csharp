@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+// creating a nullable type
+int? year = null;
+
 var my_string = "My String!";
 string current_weather = "rainy";
 

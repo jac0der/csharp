@@ -1,2 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+string? input = "";
+
+Console.WriteLine("PRINT TO CONSOLE");
+
+input = Console.ReadLine();
+
+
+Console.WriteLine("This is " + input);
