@@ -19,6 +19,13 @@ int? year = null;
 */
 var personValue = person ?? new Person();
 
+// var personValue = (person != null) ? person : new Person();
+
+
+DateTime? shipDate = null;
+DateTime shipOn = shipDate ?? DateTime.MaxValue;
+Console.WriteLine(shipOn); // 12/31/9999 11:59:59 PM
+
 
 var my_string = "My String!";
 string current_weather = "rainy";
