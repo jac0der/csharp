@@ -17,7 +17,11 @@ int? year = null;
     and the second operand is the value that you want to assign to 
     the expression if it is not null.
 */
-var personValue = person ?? new Person();
+var personValue = person ?? new Person()
+{
+    first_name = "Jim",
+    last_name = "bo"
+};
 
 // var personValue = (person != null) ? person : new Person();
 
