@@ -1,3 +1,4 @@
+// C# doesnt support multiple inheritance (multiple base classes)
 class Student : Member
 {   
     /* 
@@ -34,6 +35,7 @@ class Student : Member
 
     // constructor executes assoon as the object is created/constructed
     // default consrtuctor
+    // C# supports multiple constructors.
     public Student()
     {
         
