@@ -1,10 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-string? input = "";
+var fruits = new List<string>(){"apple", "banana", "orrange", "papaw"};
 
-Console.WriteLine("PRINT TO CONSOLE");
+var a = new int[];
 
-input = Console.ReadLine();
+foreach(string fruit in fruits)
+{
+    Console.WriteLine(fruit);
+}
 
-
-Console.WriteLine("This is " + input);
+for(int i = 0; i <= 10; i++)
+{
+    Console.WriteLine(i);
+}

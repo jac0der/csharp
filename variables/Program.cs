@@ -1,5 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+/* 
+    class variables cannot be defined with the var keyword
+    only local variables.
+*/
+
 // define Person object
 var person = new Person();
 
